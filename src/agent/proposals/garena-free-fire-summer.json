@@ -1,0 +1,63 @@
+{
+  "id": "garena-free-fire-summer",
+  "title": "Garena Free Fire summer campaign proposal",
+  "targetPublisherId": "garena",
+  "targetGameIds": ["free-fire", "lien-quan-mobile", "fc-online"],
+  "discountPercent": 5,
+  "bannerTitle": "Garena hè rực lửa",
+  "bannerSubtitle": "Nạp Garena cho Free Fire, Liên Quân Mobile và FC Online với ưu đãi đồng bộ.",
+  "bannerImageUrl": "https://scdn.zalopay.com.vn/zst/zpi/images/telco/logos_v2/digital_card/garena.png",
+  "mobileBannerImageUrl": "https://scdn.zalopay.com.vn/zst/zpi/images/telco/logos_v2/digital_card/garena.png",
+  "ctaText": "Xem ưu đãi",
+  "articleTitle": "Garena hè rực lửa: ưu đãi nạp thẻ cho game thủ",
+  "articleSummary": "Chiến dịch đề xuất cho Garena, tập trung vào Free Fire, Liên Quân Mobile và FC Online với mức giảm đồng bộ.",
+  "articleContent": "Đề xuất chiến dịch Garena hè rực lửa giúp người dùng tìm game quen thuộc, chọn đúng thẻ Garena và nhận mức ưu đãi thống nhất ở banner, thẻ nhà phát hành, mệnh giá và phần thanh toán. Chiến dịch này nên được kiểm tra bằng trang preview trước khi áp dụng vào dữ liệu live.",
+  "recommendedPopularSearchItems": [
+    {
+      "id": "agent-free-fire",
+      "targetId": "free-fire",
+      "targetType": "game",
+      "label": "Free Fire",
+      "priority": 1,
+      "campaignBoost": 30,
+      "enabled": true,
+      "source": "agent"
+    },
+    {
+      "id": "agent-lien-quan-mobile",
+      "targetId": "lien-quan-mobile",
+      "targetType": "game",
+      "label": "Liên Quân Mobile",
+      "priority": 2,
+      "campaignBoost": 25,
+      "enabled": true,
+      "source": "agent"
+    },
+    {
+      "id": "agent-fc-online",
+      "targetId": "fc-online",
+      "targetType": "game",
+      "label": "FC Online",
+      "priority": 3,
+      "campaignBoost": 20,
+      "enabled": true,
+      "source": "agent"
+    },
+    {
+      "id": "agent-google-play",
+      "targetId": "googleplay",
+      "targetType": "store",
+      "label": "Google Play",
+      "priority": 4,
+      "enabled": true,
+      "source": "agent"
+    }
+  ],
+  "proposedFileChanges": [
+    "src/data/campaigns.ts",
+    "src/data/newsArticles.ts",
+    "src/data/catalog.ts"
+  ],
+  "createdAt": "2026-06-14T17:00:00+07:00",
+  "status": "draft"
+}

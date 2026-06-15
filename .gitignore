@@ -1,0 +1,16 @@
+.next
+next-local
+next-local-v2
+next-local-v3
+next-build-*
+next-build-temp
+next-build-junction-test
+node_modules
+out
+.tmp
+.env.local
+dev-server*.log
+dev-server.pid
+npm-debug.log*
+*.log
+*.tsbuildinfo
