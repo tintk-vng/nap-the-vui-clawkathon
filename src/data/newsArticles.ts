@@ -117,6 +117,23 @@ export const newsArticles: NewsArticle[] = [
     ],
     publishedAt: "2026-06-14T17:24:26.535Z",
     enabled: true
+  },
+  {
+    id: "weekly-garena-v1a-2026-06-15",
+    title: "Garena: ưu đãi nạp thẻ tuần này trên NapTheVui",
+    summary: "Giảm 5% cho nhóm nạp Garena, tập trung vào Free Fire, Liên Quân Mobile, FC Online.",
+    coverImageUrl: "https://scdn.zalopay.com.vn/zst/zpi/images/telco/logos_v2/digital_card/garena.png",
+    content: "NapTheVui đang chuẩn bị ưu đãi nạp Garena dành cho người dùng muốn nạp nhanh các tựa game quen thuộc.\n\nÁp dụng cho: Free Fire, Liên Quân Mobile, FC Online, Liên Minh Huyền Thoại.\nMức ưu đãi Giảm 5% được lấy từ campaign setup nội bộ cho bản nháp này.\nNguồn tham khảo công khai: Garena official top-up site (https://napthe.vn).\n\nCách sử dụng:\n1. Tìm Garena hoặc tên game trong ô tìm kiếm NapTheVui.\n2. Chọn mệnh giá phù hợp.\n3. Kiểm tra ưu đãi hiển thị ở thẻ nạp, mệnh giá và phần thanh toán trước khi xác nhận.\n\nThời gian áp dụng: theo lịch campaign sau khi bản nháp được duyệt và áp dụng.\n\nLưu ý: Bài viết này được tạo từ Weekly campaign brief. Các chi tiết khuyến mãi cần được xác nhận trong preview và validation trước khi xuất hiện trên website chính thức.",
+    relatedCampaignId: "weekly-garena-v1a-2026-06-15",
+    relatedPublisherId: "garena",
+    relatedGameIds: [
+      "free-fire",
+      "lien-quan-mobile",
+      "fc-online",
+      "lien-minh-huyen-thoai"
+    ],
+    publishedAt: "2026-06-14T17:23:00.405Z",
+    enabled: true
   }
 ]
 

@@ -220,6 +220,36 @@ export const campaigns: Campaign[] = [
     enabled: true,
     priority: 220,
     themeClassName: "from-[#E75648] via-[#F1865F] to-[#FFD58F]"
+  },
+  {
+    id: "weekly-garena-v1a-2026-06-15",
+    title: "Ưu đãi nạp Garena trong tuần",
+    subtitle: "Giảm 5% cho Free Fire, Liên Quân Mobile trên NapTheVui.",
+    bannerImageUrl: "https://scdn.zalopay.com.vn/zst/zpi/images/telco/logos_v2/digital_card/garena.png",
+    mobileBannerImageUrl: "https://scdn.zalopay.com.vn/zst/zpi/images/telco/logos_v2/digital_card/garena.png",
+    altText: "Garena promotion banner",
+    targetPublisherId: "garena",
+    targetGameIds: [
+      "free-fire",
+      "lien-quan-mobile",
+      "fc-online",
+      "lien-minh-huyen-thoai"
+    ],
+    discountPercent: 5,
+    discountText: "Giảm 5%",
+    skuDiscounts: [
+      {
+        id: "weekly-garena-v1a-2026-06-15-garena-eligible-skus",
+        publisherId: "garena",
+        discountPercent: 5,
+        enabled: true
+      }
+    ],
+    ctaText: "Xem ưu đãi",
+    articleId: "weekly-garena-v1a-2026-06-15",
+    enabled: true,
+    priority: 230,
+    themeClassName: "from-[#E75648] via-[#F1865F] to-[#FFD58F]"
   }
 ]
 

@@ -329,79 +329,88 @@ export const topupSkus: TopupSku[] = [
 // AI_AGENT_EDITABLE: daily popular search recommendations
 export const agentPopularSearchRecommendations: PopularSearchItem[] = [
   {
-    id: "agent-weekly-googleplay-v1a-2026-06-15-google-play-game",
-    targetId: "google-play-game",
-    targetType: "game",
-    label: "Google Play",
-    priority: 1,
-    campaignBoost: 25,
-    enabled: true,
-    source: "agent",
-    updatedAt: "2026-06-14T17:24:26.535Z"
-  },
-  {
-    id: "agent-weekly-googleplay-v1a-2026-06-15-genshin-impact",
-    targetId: "genshin-impact",
-    targetType: "game",
-    label: "Genshin Impact",
-    priority: 2,
-    campaignBoost: 25,
-    enabled: true,
-    source: "agent",
-    updatedAt: "2026-06-14T17:24:26.535Z"
-  },
-  {
-    id: "agent-weekly-googleplay-v1a-2026-06-15-toc-chien",
-    targetId: "toc-chien",
-    targetType: "game",
-    label: "Tốc Chiến",
-    priority: 3,
-    campaignBoost: 25,
-    enabled: true,
-    source: "agent",
-    updatedAt: "2026-06-14T17:24:26.535Z"
-  },
-  {
-    id: "agent-weekly-googleplay-v1a-2026-06-15-free-fire",
+    id: "agent-weekly-garena-v1a-2026-06-15-free-fire",
     targetId: "free-fire",
     targetType: "game",
     label: "Free Fire",
-    priority: 4,
+    priority: 1,
     aiScore: 194,
     searchCount: 12840,
     clickCount: 4320,
     purchaseCount: 980,
+    campaignBoost: 25,
     enabled: true,
     source: "agent",
-    updatedAt: "2026-06-14T17:24:26.535Z"
+    updatedAt: "2026-06-14T17:23:00.405Z"
   },
   {
-    id: "agent-weekly-googleplay-v1a-2026-06-15-lien-quan-mobile",
+    id: "agent-weekly-garena-v1a-2026-06-15-lien-quan-mobile",
     targetId: "lien-quan-mobile",
     targetType: "game",
     label: "Liên Quân Mobile",
-    priority: 5,
+    priority: 2,
     aiScore: 187,
     searchCount: 10820,
     clickCount: 3900,
     purchaseCount: 860,
+    campaignBoost: 25,
     enabled: true,
     source: "agent",
-    updatedAt: "2026-06-14T17:24:26.535Z"
+    updatedAt: "2026-06-14T17:23:00.405Z"
   },
   {
-    id: "agent-weekly-googleplay-v1a-2026-06-15-googleplay",
+    id: "agent-weekly-garena-v1a-2026-06-15-fc-online",
+    targetId: "fc-online",
+    targetType: "game",
+    label: "FC Online",
+    priority: 3,
+    aiScore: 165,
+    searchCount: 6120,
+    clickCount: 2140,
+    purchaseCount: 420,
+    campaignBoost: 25,
+    enabled: true,
+    source: "agent",
+    updatedAt: "2026-06-14T17:23:00.405Z"
+  },
+  {
+    id: "agent-weekly-garena-v1a-2026-06-15-lien-minh-huyen-thoai",
+    targetId: "lien-minh-huyen-thoai",
+    targetType: "game",
+    label: "Liên Minh Huyền Thoại",
+    priority: 4,
+    campaignBoost: 25,
+    enabled: true,
+    source: "agent",
+    updatedAt: "2026-06-14T17:23:00.405Z"
+  },
+  {
+    id: "agent-weekly-garena-v1a-2026-06-15-googleplay",
     targetId: "googleplay",
     targetType: "store",
     label: "Google Play",
-    priority: 6,
+    priority: 5,
     aiScore: 173,
     searchCount: 7400,
     clickCount: 2500,
     purchaseCount: 510,
     enabled: true,
     source: "agent",
-    updatedAt: "2026-06-14T17:24:26.535Z"
+    updatedAt: "2026-06-14T17:23:00.405Z"
+  },
+  {
+    id: "agent-weekly-garena-v1a-2026-06-15-roblox",
+    targetId: "roblox",
+    targetType: "game",
+    label: "Roblox",
+    priority: 6,
+    aiScore: 169,
+    searchCount: 6920,
+    clickCount: 2210,
+    purchaseCount: 430,
+    enabled: true,
+    source: "agent",
+    updatedAt: "2026-06-14T17:23:00.405Z"
   }
 ]
 
